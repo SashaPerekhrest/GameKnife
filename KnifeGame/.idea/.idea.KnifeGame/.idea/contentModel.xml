@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Unity\GameKnife\KnifeGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Game.cs" t="Include" />
+          <e p="HighScore.cs" t="Include" />
+          <e p="MooveVag.cs" t="Include" />
+          <e p="MoveClen.cs" t="Include" />
+          <e p="MoveCloud.cs" t="Include" />
+          <e p="Restart.cs" t="Include" />
+          <e p="SpawnC.cs" t="Include" />
+          <e p="SpawnCloud.cs" t="Include" />
+          <e p="Start.cs" t="Include" />
+          <e p="Tetxt.cs" t="Include" />
+          <e p="VigVig.cs" t="Include" />
+        </e>
+      </e>
+      <e p="KnifeGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Александр\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Александр\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_KnifeGame.1560705015.00" t="ExcludeRecursive" />
+  </component>
+</project>
