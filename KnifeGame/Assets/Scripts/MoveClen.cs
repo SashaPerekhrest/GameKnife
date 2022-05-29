@@ -20,10 +20,13 @@ public class MoveClen : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" && this.tag == "BadRock")
-            Game.life = false;
+        {
+            Game.Score-=50;
+            Destroy(gameObject);
+        }
         if (other.gameObject.tag == "Player" && this.tag == "GoodRock" && Game.life)
         {
-            Game.Score++;
+            Game.Score+=50;
             Destroy(gameObject);
         }
         if(PlayerPrefs.GetInt("High") < Game.Score)

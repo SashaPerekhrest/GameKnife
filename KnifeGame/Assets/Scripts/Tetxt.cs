@@ -7,6 +7,9 @@ public class Tetxt : MonoBehaviour
 
     void Update()
     {
-        scoreTxt.text ="Score = " + Game.Score.ToString();
+        if (Game.life)
+        {
+            scoreTxt.text ="Score = " + Game.Score.ToString();
+        }
     }
 }
